@@ -1,0 +1,86 @@
+html,
+body {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main,
+header,
+footer {
+    width: 60em;
+    margin: 2em auto;
+}
+
+a,
+button {
+    border: 0;
+    margin-block: 0.5em;
+    display: block;
+}
+
+button {
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: rgb(186, 233, 158);
+    font-size: 1.4em;
+}
+
+#add_quotes {
+        padding: 0.5em 1em;
+        cursor: pointer;
+        background-color: rgb(186, 233, 158);
+        font-size: 1.4em;
+}
+
+input,
+textarea {
+    padding: 0.5em 1em;
+}
+
+form {
+    margin: 0 auto;
+    width: 30em;
+}
+
+form > div {
+    margin-block: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+form label,
+form input,
+form textarea {
+    width: 100%;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form .error {
+    background-color: rgb(250, 170, 164);
+    border: 5px solid rgb(187, 76, 75);
+    padding: 1em 2em;
+    color: rgb(38, 28, 28);
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.quotestyle {
+    background-color:rgb(255, 220, 200); 
+    padding: 20px; 
+    margin-bottom: 5px;
+}
