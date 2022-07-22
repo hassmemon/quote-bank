@@ -1,1 +1,3 @@
-# flask-project
+# Zastav Travel Blog
+
+A microblogging platform for intrepid adventurers.
